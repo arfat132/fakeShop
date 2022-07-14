@@ -40,6 +40,11 @@ color: #14b8a6;
 .contact{
   color: gray;
 }
+.contact-btn{
+background-color: #14b8a6;
+color: white;
+border: none;
+}
 .list li{
 color: gray;
 }
