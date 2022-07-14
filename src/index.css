@@ -18,3 +18,20 @@ code {
   background-color: #181818;
  
 }
+.subscribe{
+  background: #14b8a6;
+  align-items: center;
+  
+}
+.subscripe-input{
+  width: 550px;
+}
+.contact{
+  color: gray;
+}
+.list li{
+color: gray;
+}
+.copyright{
+  color: gray;
+}

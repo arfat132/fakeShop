@@ -26,7 +26,7 @@ const Info = () => {
                         <div class="fs-2 pe-3">
                         <FontAwesomeIcon icon={faTruck} />
                         </div>
-                        <div class="support-content">
+                        <div>
                             <h3 className='fs-5 fw-bold'>Free Shipping & Returns</h3>
                             <span>For all orders over $99</span>
                         </div>
@@ -37,7 +37,7 @@ const Info = () => {
                         <div class="fs-2 pe-3">
                         <FontAwesomeIcon icon={faKey} />
                         </div>
-                        <div class="support-content">
+                        <div>
                             <h3 className='fs-5 fw-bold'>Secure Payment</h3>
                             <span>We ensure secure payment</span>
                         </div>
@@ -48,7 +48,7 @@ const Info = () => {
                         <div class="fs-2 pe-3">
                         <FontAwesomeIcon icon={faCoins} />
                         </div>
-                        <div class="support-content">
+                        <div>
                             <h3 className='fs-5 fw-bold'>Money Back Guarantee</h3>
                             <span>Any back within 15 days</span>
                         </div>
