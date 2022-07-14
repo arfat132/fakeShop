@@ -16,10 +16,10 @@ const ProductDetails = () => {
             <div class="card w-75 mb-3 mx-auto">
                 <div class="row ">
                     <div class="col-md-5">
-                        <img src={image} class="img-fluid rounded-start p-5 mx-auto" alt="..." />
+                        <img src={image} class="img-fluid rounded-start p-5" alt="..." />
                     </div>
                     <div class="col-md-7">
-                        <div class="card-body p-5">
+                        <div class="card-body py-5">
                             <h5 class="card-title fw-bold">{title}</h5>
                             <p class="card-text my-2">{category}</p>
                             {/* <span class="card-text">{rating.rate}</span>

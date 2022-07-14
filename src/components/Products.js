@@ -18,7 +18,7 @@ const Products = () => {
              {products?.length ?
                             <div className="row">
                                 {
-                                    products.slice(0,8).map(product => <Product
+                                    products.slice(-8).map(product => <Product
                                         key={product.id}
                                         product={product}
                                     ></Product>)
