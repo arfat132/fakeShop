@@ -18,6 +18,17 @@ code {
   background-color: #181818;
  
 }
+.title button{
+border: 1px solid #14b8a6;
+color: #14b8a6;
+}
+.product-card img{
+  width: 300px;
+  height: 300px;
+}
+.product-card{
+  height: 450px;
+}
 .subscribe{
   background: #14b8a6;
   align-items: center;

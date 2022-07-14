@@ -10,9 +10,9 @@ const Navbar = () => {
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="navbar-nav px-5">
-                        <a class="nav-link active fw-semibold text-light text-Capitalize" aria-current="page" href="#">Home</a>
-                        <a class="nav-link fw-semibold text-light text-Capitalize" href="#">Shop</a>
-                        <a class="nav-link fw-semibold text-light text-Capitalize" href="#">Contact</a>
+                        <a class="nav-link active fw-bold text-light text-Capitalize" aria-current="page" href="#">Home</a>
+                        <a class="nav-link fw-bold text-light text-Capitalize" href="#">Shop</a>
+                        <a class="nav-link fw-bold text-light text-Capitalize" href="#">Contact</a>
                     </div>
                 </div>
             </div>
