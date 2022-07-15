@@ -1,8 +1,10 @@
 import React, { useEffect, useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 import Product from './Product';
 
 const Products = () => {
     const [products, setProducts] = useState([]);
+    const navigate = useNavigate();
 
     useEffect(() => {
         fetch("https://fakestoreapi.com/products")
@@ -12,13 +14,13 @@ const Products = () => {
     return (
         <div className='container'>
             <div className='d-flex justify-content-between title'>
-            <h1 className='fs-3 fw-bold py-4'>Our Featured Poducts</h1>
-            <button type="button" class="btn my-4">View All Collection</button>
+            <h1 className='fs-4 fw-bold py-4'>Our Featured Poducts</h1>
+            <button onClick={()=>navigate('/shop')} type="button" class="btn my-4">View All Collection</button>
             </div>
              {products?.length ?
-                            <div className="row">
+                            <div className="row row-cols-1 row-cols-md-3 row-cols-lg-5">
                                 {
-                                    products.slice(-8).map(product => <Product
+                                    products.slice(-5).map(product => <Product
                                         key={product.id}
                                         product={product}
                                     ></Product>)

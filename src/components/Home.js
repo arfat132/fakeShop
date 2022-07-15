@@ -2,6 +2,7 @@ import React from 'react';
 import Carousel from './Carousel';
 import Info from './Info';
 import Products from './Products';
+import Counter from './Shared/Counter';
 
 const Home = () => {
     return (
@@ -9,6 +10,7 @@ const Home = () => {
             <Carousel></Carousel>
             <Info></Info>
             <Products></Products>
+            <Counter></Counter>
         </div>
     );
 };

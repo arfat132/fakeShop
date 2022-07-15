@@ -8,13 +8,13 @@ const Product = ({ product }) => {
         navigate(`/productDetails/${id}`);
     }
     return (
-        <div className='col-12 col-md-6 col-lg-3 mb-4'>
-            <div onClick={() => navigateToDetails(id)} class="card product-card">
+        <div className='mb-4'>
+            <div onClick={() => navigateToDetails(id)} class="card product-card rounded-0">
                 <div className='bg-light'>
-                <img src={image} class="card-img-top p-5" alt="..." />
+                <img src={image} class="card-img-top p-5 img-fluid" alt="..." />
                </div>
                 <div class="card-body text-center">
-                    <h3 className='fs-6'>{title}</h3>
+                    <h3 className='fs-6'>{title.slice(0,20)}...</h3>
                     <span class="card-text">{rating.rate}</span>
                     <span class="card-text">({rating.count} Reviews)</span>
                     <h3 className='fs-5 fw-bold'>${price}</h3>

@@ -7,10 +7,10 @@ import React from 'react';
 
 const Info = () => {
     return (
-        <div className='m-5 border py-5 shadow-sm'>
+        <div className='m-lg-5 m-3 border pt-3 py-lg-5 shadow-sm'>
             <div class="container">
-                <div class="row">
-                    <div class="col">
+                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4">
+                    <div class="col mb-4 mb-lg-0">
                         <div class="d-flex">
                         <div class="fs-2 pe-3">
                         <FontAwesomeIcon icon={faComments} />
@@ -21,7 +21,7 @@ const Info = () => {
                         </div>
                        </div>
                     </div>
-                    <div class="col">
+                    <div class="col mb-4 mb-lg-0">
                         <div className='d-flex'>
                         <div class="fs-2 pe-3">
                         <FontAwesomeIcon icon={faTruck} />
@@ -32,7 +32,7 @@ const Info = () => {
                         </div>
                         </div>
                     </div>
-                    <div class="col">
+                    <div class="col mb-4 mb-lg-0">
                         <div className='d-flex'>
                         <div class="fs-2 pe-3">
                         <FontAwesomeIcon icon={faKey} />
@@ -43,7 +43,7 @@ const Info = () => {
                         </div>
                         </div>
                     </div>
-                    <div class="col">
+                    <div class="col mb-4 mb-lg-0">
                         <div className='d-flex'>
                         <div class="fs-2 pe-3">
                         <FontAwesomeIcon icon={faCoins} />

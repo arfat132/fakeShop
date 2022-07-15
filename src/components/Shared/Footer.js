@@ -8,11 +8,11 @@ const Footer = () => {
                 <div class="container">
                     <div class="d-lg-flex d-sm-block justify-content-between">
                         <div class="d-flex pt-2">
-                            <input className='mb-4 me-3 p-2 subscripe-input rounded' type="text" placeholder="Your E-mail Address" />
-                            <button type="button" class="btn btn-dark px-5 text-light mb-4">Subscribe</button>
+                            <input className='mb-lg-4 me-3 p-2 subscripe-input rounded' type="text" placeholder="Your E-mail Address" />
+                            <button type="button" class="btn btn-dark px-5 text-light mb-lg-4">Subscribe</button>
                         </div>
                         <div class="text-light">
-                            <h4 className='fs-5fw-bold'>SUBSCRIBE TO OUR NEWSLETTER</h4>
+                            <h4 className='fs-5 fw-bold'>SUBSCRIBE TO OUR NEWSLETTER</h4>
                             <p>Get all the latest information on Events, Sales and Offers.</p>
                         </div>
                     </div>
@@ -21,7 +21,7 @@ const Footer = () => {
             <div class="py-5 bg-dark text-light">
                 <div class="container">
                     <div class="">
-                        <div class="row ">
+                        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4">
                             <div class="col pe-5">
                                 <div class="fs-2 fw-bold pb-2"> Fakeshop</div>
 

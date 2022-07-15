@@ -12,25 +12,18 @@ code {
     monospace;
 }
 .logo{
-  color: #14b8a6;
-}
-.header{
-  background-color: #181818;
- 
+  color: #38d3b9;
 }
 .title button{
-border: 1px solid #14b8a6;
-color: #14b8a6;
+border: 1px solid #38d3b9;
+color: #38d3b9;
 }
 .product-card img{
   width: 300px;
-  height: 300px;
-}
-.product-card{
-  height: 450px;
+  height: 250px;
 }
 .subscribe{
-  background: #14b8a6;
+  background: #38d3b9;
   align-items: center;
   
 }
@@ -41,7 +34,7 @@ color: #14b8a6;
   color: gray;
 }
 .contact-btn{
-background-color: #14b8a6;
+background-color: #38d3b9;
 color: white;
 border: none;
 }
@@ -50,4 +43,31 @@ color: gray;
 }
 .copyright{
   color: gray;
+}
+.bag{
+  width: 30px;
+  height: 30px;
+  fill: #38d3b9;
+}
+.search{
+  width: 25px;
+  height: 25px;
+  fill: #021715;
+  margin-left: -40px;
+  margin-top: 12px;
+}
+.search-input{
+  width: 650px;
+}
+
+@media (max-width: 576px) { 
+  .search-input{
+    width: 250px;
+  }
+}
+
+@media (min-width: 577px) and (max-width: 991.98px) { 
+  .search-input{
+    width: 450px;
+  }
 }
