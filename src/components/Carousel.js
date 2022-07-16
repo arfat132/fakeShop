@@ -1,7 +1,7 @@
 import React from 'react';
-import Images from './Assests/Banner1.png';
-import Images1 from './Assests/Banner2.png';
-import Images2 from './Assests/Banner3.png'
+import Images from './Assests/SliderBanner1.png';
+import Images1 from './Assests/SliderBanner2.png';
+import Images2 from './Assests/SliderBanner3.png'
 const Carousel = () => {
     return (
         <div id="carouselExampleInterval" class="carousel slide absolute" data-bs-ride="carousel">
@@ -22,7 +22,7 @@ const Carousel = () => {
             </button>
             <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
+                <span class="visually-hidden text-dark">Next</span>
             </button>
         </div>
     );

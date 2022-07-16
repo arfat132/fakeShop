@@ -7,8 +7,8 @@ import React from 'react';
 
 const Info = () => {
     return (
-        <div className='m-lg-5 m-3 border pt-3 py-lg-5 shadow-sm'>
-            <div class="container">
+        <div className='container border shadow-sm my-5'>
+            <div class="p-4">
                 <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4">
                     <div class="col mb-4 mb-lg-0">
                         <div class="d-flex">
