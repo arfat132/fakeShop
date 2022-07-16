@@ -7,12 +7,12 @@ const Footer = () => {
                 <div class="container">
                     <div class="d-lg-flex d-sm-block justify-content-between">
                         <div class="d-flex pt-2">
-                            <input className='mb-lg-4 me-3 p-2 subscripe-input rounded' type="text" placeholder="Your E-mail Address" />
-                            <button type="button" class="btn btn-dark px-5 text-light mb-lg-4">Subscribe</button>
+                            <input className='mb-lg-4 mb-0 me-3 p-2 subscripe-input rounded' type="text" placeholder="Your E-mail Address" />
+                            <button type="button" class="btn btn-dark px-lg-5 px-1 text-light mb-lg-4 mb-0">Subscribe</button>
                         </div>
-                        <div class="text-light">
+                        <div class="text-light py-3">
                             <h4 className='fs-5 fw-bold'>SUBSCRIBE TO OUR NEWSLETTER</h4>
-                            <p>Get all the latest information on Events, Sales and Offers.</p>
+                            <p className='mb-0'>Get all the latest information on Events, Sales and Offers.</p>
                         </div>
                     </div>
                 </div>

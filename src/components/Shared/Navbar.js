@@ -11,9 +11,9 @@ const Navbar = () => {
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="navbar-nav px-4">
-                        <Link to="/" class="nav-link active fs-5 fw-semibold text-light text-Capitalize" aria-current="page">Home</Link>
-                        <Link to="/shop" class="nav-link fs-5 fw-semibold text-light text-Capitalize">Shop</Link>
-                        <Link to="/contact" class="nav-link fs-5 fw-semibold text-light text-Capitalize">Contact</Link>
+                        <Link to="/" class="nav-link active fs-6 fw-semibold text-light text-Capitalize" aria-current="page">Home</Link>
+                        <Link to="/shop" class="nav-link fs-6 fw-semibold text-light text-Capitalize">Shop</Link>
+                        <Link to="/contact" class="nav-link fs-6 fw-semibold text-light text-Capitalize">Contact</Link>
                     </div>
                 </div>
                 <div class="d-flex">

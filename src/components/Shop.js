@@ -20,7 +20,7 @@ const Shop = () => {
             {loading ? <Spinner></Spinner> :
                 (<div className='container py-5'>
                     <div class="row row-cols-1 row-cols-lg-2 mb-5">
-                        <img className='rounded img-fluid' src={Banner1} alt="" srcset="" />
+                        <img className='rounded img-fluid mb-2 mb-lg-0' src={Banner1} alt="" srcset="" />
                         <img className='rounded img-fluid' src={Banner2} alt="" srcset="" />
                     </div>
                         <div className="row row-cols-1 row-cols-md-3 row-cols-lg-5">
