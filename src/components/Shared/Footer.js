@@ -1,6 +1,5 @@
 import React from 'react';
-
-
+import logo from '../Assests/logo.png';
 const Footer = () => {
     return (
         <div>
@@ -23,7 +22,7 @@ const Footer = () => {
                     <div class="">
                         <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4">
                             <div class="col pe-5">
-                                <div class="fs-2 fw-bold pb-2"> Fakeshop</div>
+                                <div class="fs-2 fw-bold pb-2"><img src={logo} alt="" /></div>
 
                                 <span className='contact'>Got Question? Call us 24/7</span>
                                 <h3>1-600-570-3434</h3>
